@@ -1,0 +1,562 @@
+/*  ================================
+        global area start 
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-wraper {
+    background-color: #fff;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.ex-margin {
+    padding-left: 0;
+}
+
+.ex-margin-two {
+    padding-right: 0;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+.main-div {
+    overflow: hidden;
+}
+
+/*  ================================
+        header area start
+    ================================ */
+
+.header-area {
+    background-color: #00AEEF;
+    padding: 0 0 33px;
+}
+
+/* welcome part start */
+
+.wel-come {
+    padding: 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.wel-come h4 {
+    font-size: 14px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.wel-come span {
+    color: #fff;
+}
+
+/* welcome part end */
+
+/* logo part start */
+
+.logo {
+    padding: 20px;
+}
+
+/* logo part end */
+
+/* top mark part start */
+
+.top-mark {
+    background: url('../images/wraper-before.png') no-repeat scroll 0 0 / contain;
+    padding: 2px 30px;
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: -13px;
+}
+
+.top-mark ul li {
+    display: inline-block;
+}
+
+.top-mark ul li a {
+    display: block;
+    color: #fff;
+}
+
+/* top mark part end */
+
+/* menu part start */
+
+.primary-menu {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.navbar {
+    margin: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar ul li a {
+    color: #1a1a1a !important;
+    font-weight: 700;
+    padding: 15px 7px !important;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    padding: 14px;
+    border-bottom: 3px solid #fff !important;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: transparent;
+    border-bottom: 3px solid #EB268F !important;
+}
+
+/* menu part end */
+
+/* satisfied part start */
+
+.satisfied {
+    position: absolute;
+    bottom: -65px;
+    width: 100%;
+    text-align: center;
+}
+
+.satisfied img {
+    width: 70%;
+}
+
+/* satisfied part end */
+.navbar-nav {
+    float: inherit;
+    text-align: center;
+    display: inline-block !important;
+    padding: 45px 0;
+}
+
+/*  ================================
+        header area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+
+.product-area {
+    padding: 60px 0 30px;
+}
+
+.product-wraper {
+    border: 1px solid #D1D1D1;
+    overflow: hidden;
+
+}
+
+.product-img {
+    text-align: center;
+}
+
+.product-img img {
+    width: 480px;
+    height: auto;
+    max-width: 100%;
+}
+
+.product-title h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.product-title span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FE0000;
+}
+
+.choose-info {
+    border: 1px solid #D1D1D1;
+    padding: 10px;
+    margin: 40px 0 0;
+    box-shadow: 4px 3px 9px #888888;
+}
+
+.choose-info h3 {
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #D1D1D1;
+    padding: 5px;
+    color: #555;
+}
+
+.choose-info ul {
+    margin-top: 5px;
+}
+
+.choose-info ul li {
+    list-style: none;
+    color: #555;
+    border-bottom: 1px solid #D1D1D1;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 13px;
+}
+
+.choose-info ul li:last-child {
+    border: 0
+}
+
+.choose-info ul li::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 0;
+    color: #F58635;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        description area start
+    ================================ */
+
+.pro-heading {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	padding: 10px 10px;
+	border-left: 10px solid #000;
+	background: #EB268F;
+}
+
+.dec-wraper {
+    padding: 30px;
+    border: 1px solid #D1D1D1;
+}
+
+.dec-wraper h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.dec-wraper p {
+    font-size: 16px;
+}
+
+.dec-wraper ul li {
+    list-style: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+.dec-wraper ul li::before {
+    position: absolute;
+    content: "-";
+    left: 0;
+}
+
+/*  ================================
+        description area end
+    ================================ */
+
+/*  ================================
+        satisfaction area start
+    ================================ */
+
+.satisfaction-area {
+    padding: 30px 0;
+}
+
+.satisfaction-wraper {
+    padding: 30px 0;
+    border: 1px solid #D1D1D1;
+    overflow: hidden;
+}
+
+.satisfaction-details {
+    border-right: 1px solid #CCCCCC;
+}
+
+.satisfaction-details img {
+    height: 50px;
+}
+
+.satisfaction-details h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 10px 0 5px;
+}
+
+.satisfaction-details p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.no-border {
+    border: 0;
+}
+
+/*  ================================
+        satisfaction area end
+    ================================ */
+
+/*  ================================
+        delivery area start
+    ================================ */
+
+.delivery-wraper {
+    padding: 15px;
+}
+
+.delivery-wraper h3 {
+    padding: 20px 15px;
+    background-color: #616161;
+    color: #fff;
+}
+
+.delivery-wraper img {
+    margin-right: 15px;
+}
+
+.delivery-wraper p {
+    font-size: 16px;
+}
+
+/*  ================================
+        delivery area end
+    ================================ */
+
+/*  ================================
+     guarantee and deals area start
+    ================================ */
+
+.deals-area,
+.guarantee-area {
+    padding: 30px 0;
+}
+
+.deals-wraper img,
+.guarantee-wraper img {
+    width: 100%;
+}
+
+/*  ================================
+     guarantee and deals area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+
+section.tab-section {
+    display: none;
+    padding: 30px;
+    border: 1px solid #ddd;
+    color: #666;
+    overflow: hidden;
+}
+
+.tab-area input {
+    display: none;
+}
+
+.tab-area label {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	border: 1px solid transparent;
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 10px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #EB268F;
+}
+
+.tab-area label:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.tab-area input:checked + label {
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+    display: block;
+}
+
+section > p {
+    font-size: 16px;
+}
+
+section li {
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        schedule area start
+    ================================ */
+
+.schedule-area {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.schedule {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.schedule img {
+    height: 45px;
+}
+
+.schedule h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.schedule p {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.schedule-left {
+    background-color: #F58634;
+}
+
+.schedule-right {
+    background-color: #323232;
+}
+
+/*  ================================
+        schedule area end
+    ================================ */
+
+/*  ================================
+        care area start
+    ================================ */
+
+.care-area {
+    padding: 30px 0;
+}
+
+.single-care img {
+    height: 30px;
+}
+
+.single-care h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #333;
+    padding: 35px 0 15px;
+}
+
+.single-care p {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*  ================================
+        care area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-area {
+    background-color: #EB268F;
+    padding: 20px 0;
+}
+
+.footer-left h2 {
+    font-size: 35px;
+    color: #fff;
+    font-style: italic;
+}
+
+.footer-middle p {
+    color: #fff;
+    margin: 0;
+}
+
+.footer-right a {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: #F58634;
+    display: inline-block;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
